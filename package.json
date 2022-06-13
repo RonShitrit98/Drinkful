@@ -1,0 +1,23 @@
+{
+  "name": "drinkful",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "sass": "^1.52.3",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/test-utils": "^2.0.0",
+    "jsdom": "^19.0.0",
+    "vite": "^2.9.9",
+    "vitest": "^0.13.0"
+  }
+}

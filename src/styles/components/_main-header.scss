@@ -1,0 +1,16 @@
+.main-header{
+    background-color: $mainGreen;
+
+    h1{
+        &:hover{
+            color: $secondGreen;
+            cursor: pointer;
+    }
+    }
+    nav{
+        &>*:hover{
+            cursor: pointer;
+            color: $mainPink;
+        }
+    }
+}
